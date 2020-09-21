@@ -13,10 +13,10 @@
   <title>lenobit</title>
 </head>
 
-<body>
-  <nav class="navbar navbar-dark  navbar-expand-sm  bg-dark fixed-top">
+<body data-spy="scroll" data-target="#main-nav" id="home">
+  <nav id="main-nav" class=" navbar navbar-dark  navbar-expand-sm  bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#home"> Home</a>
+      <a class="navbar-brand" href="#home"> Lenobit</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,16 +24,16 @@
       <div class="collapse navbar-collapse  " id="navbar1">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#home" class="nav-link">Home </a>
+            <a href="#home-section" class="nav-link">Home </a>
           </li>
           <li class="nav-item">
-            <a href="#home" class="nav-link">Explore</a>
+            <a href="#explore-head-section" class="nav-link">Explore</a>
           </li>
           <li class="nav-item">
-            <a href="#home" class="nav-link">Create</a>
+            <a href="#create-head-section" class="nav-link">Create</a>
           </li>
           <li class="nav-item">
-            <a href="#home" class="nav-link">Share</a>
+            <a href="#share-head-section" class="nav-link">Share</a>
           </li>
 
         </ul>
@@ -83,7 +83,7 @@
               <div class="card-body">
                 <h3>Sign Up Today</h3>
                 <p>pleas fill out this form to register</p>
-                <form >
+                <form>
                   <div class="form-group">
                     <input type="text" class="form-control form-control-lg" placeholder="Username">
                   </div>
@@ -94,10 +94,11 @@
                     <input type="password" class="form-control form-control-lg" placeholder="Password">
                   </div>
                   <div class="form-group">
-                    <input type="password" class="form-control form-control-lg"placeholder="Confirm Password">
+                    <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
                   </div>
                   <div class="form-group">
-                    <input type="submit" value="Submit" class="btn btn-outline- btn-outline- btn-outline-light btn-block">
+                    <input type="submit" value="Submit"
+                      class="btn btn-outline- btn-outline- btn-outline-light btn-block">
                   </div>
                 </form>
               </div>
@@ -109,49 +110,206 @@
     </div>
   </header>
 
-<!--Explor Head-->
-<section id="explore-head-section">
-  <div class="container">
-    <div class="row">
-      <div class="col text-center py-5">
-        <h1 class="display-4">Exploer</h1>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas suscipit veniam quae dolore odit assumenda repudiandae? Itaque, rem mollitia?</p>
-      <a href="" class="btn btn-outline-secondary">Find Out More</a>
+  <!--Explor Head-->
+  <section id="explore-head-section">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Exploer</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas suscipit veniam quae
+            dolore odit assumenda repudiandae? Itaque, rem mollitia?</p>
+          <a href="" class="btn btn-outline-secondary">Find Out More</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!--exploer section-->
+  </section>
+  <!--exploer section-->
 
-<section id="exploer-section" class="bg-light text-muted py-5">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+  <section id="exploer-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Explore&Connect</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nemo recusandae ipsum numquam, laborum ut
+            quos earum nostrum ratione explicabo.</p>
+          <div class="d-flex">
+            <div class="align-self-start p-4">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium minus dignissimos unde
+              dolores provident!
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="align-self-start p-4">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="align-self-end p-4">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quas dolor aliquam illo, quidem
+              repellendus.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6">
-      <h3>Explore&Connect</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nemo recusandae ipsum numquam, laborum ut quos earum nostrum ratione explicabo.</p>
-    <div class="d-flex">
-      <div class="align-self-start p-4">
-        <i class="fas fa-check fa-2x"></i>
-      </div>
-      <div class="align-self-end">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium minus dignissimos unde dolores provident!
+  </section>
+  <!---CREATE HEAD-->
+  <section id="create-head-section" class="bg-primary ">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="disply-4">Create</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore obcaecati impedit, nobis
+            quae recusandae mollitia blanditiis quia fugit cum debitis!</p>
+          <a href="" class="btn btn-outline-light">Find out More</a>
+        </div>
       </div>
     </div>
-    <div class="d-flex">
-      <div class="align-self-start p-4">
-        <i class="fas fa-check fa-2x"></i>
+  </section>
+
+  <!---CREAT SECTION-->
+  <section id="create-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <img src="img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>Creat Your Passion</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima placeat iure dolorum perferendis cupiditate
+            ut consequuntur deleniti facilis! Illo unde autem laudantium dignissimos corrupti eos possimus fugiat
+            repellendus voluptate dolore.</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-star">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem laboriosam tempore assumenda!
+              Fugiat tempora commodi ut unde ipsa mollitia.
+
+            </div>
+
+          </div>
+          <div class="d-flex">
+            <div class="alin-self-start  p-4">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="aling-self-end p-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam officiis odio ipsam aliquam nam
+              repudiandae doloribus corrupti voluptatem sint asperiores.
+            </div>
+
+          </div>
+        </div>
       </div>
-      <div class="align-self-end p-4">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quas dolor aliquam illo, quidem repellendus.
+    </div>
+  </section>
+  <!-- SHARE HEAD -->
+  <section id="share-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="disply-4">Share</h1>
+          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod perspiciatis quam corporis
+            asperiores neque officia, eligendi labore? Deleniti, autem reprehenderit.</p>
+          <a href="" class="btn btn-outline-light">Find Out More </a>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- SHARE SECTION -->
+  <section id="share-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h1 class="disply-4">share</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe reiciendis atque officiis aliquam, sit
+            labore tenetur illum necessitatibus molestias dignissimos?</p>
+          <div class="d-flex">
+            <div class="aling-self-start p-4">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="aling-self-end p-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, corporis. Nemo iste eveniet voluptatem
+              commodi officia quos non dolore debitis.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="align-self-start p-4">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="align-self-end p-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dolore maxime sed eos optio illum?
+              Architecto, nemo? Perspiciatis, odit repellat.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>lenobit</h3>
+          <p>Copyright &copy;
+            <span id="year"></span>
+          </p>
+          <button class="btn btn-outline-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact-us</h5>
+          <button class="close" data-dismiss="modal">
+            <span>x</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea class="form-control"></textarea>
+            </div>
+        </form>
+     </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary btn-block">Submit</button>
+      </div>  
     </div>
     </div>
   </div>
-</div>
-</section>
+
+
+
+
+
+
 
 
 
@@ -170,6 +328,27 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Init Scrollspy
+    $('body').scrollspy({
+      target: '#main-nav'
+    });
+
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
   </script>
 </body>
 
